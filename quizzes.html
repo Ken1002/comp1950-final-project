@@ -16,9 +16,16 @@
 		<!--Jquery-->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 	<script src="external_javascript.js"></script>
-
 	
-    
+      <!-- Plugin Alertify for the customised alert. It's on my computer -->
+        <script src="alertify.js-0.3.11/lib/alertify.min.js"></script>
+        <!-- include the core styles -->
+        <link rel="stylesheet" href="alertify.js-0.3.11/themes/alertify.core.css" />
+        <!-- include a theme, can be included into the core instead of 2 separate files -->
+        <link rel="stylesheet" href="alertify.js-0.3.11/themes/alertify.default.css" />
+        <!--End of plugin info-->   
+	
+	
 	<link rel="stylesheet" 
           type="text/css" 
           href="/style.css" media="screen"/>
@@ -88,21 +95,21 @@
                 <div class="input-group input-group-lg">
                   <input type="text" class="form-control" placeholder="enter your answer here" aria-describedby="sizing-addon1">
                 </div>
-                <button type="button">save answer</button>
+                <button class="save">save answer</button>
         
         <h3>Question 4</h3>
                 <p>Name 2 things you should do to a web page to display for printing:</p>
                 <div class="input-group input-group-lg">
                   <input type="text" class="form-control" placeholder="enter your answer here" aria-describedby="sizing-addon1">
                 </div>
-                <button type="button">save answer</button>
+                <button class="save">save answer</button>
         <h3>Question 5</h3>
                 <p>Name 2 design practices when styling for small devices</p>
                 <div class="input-group input-group-lg">
                   <input type="text" class="form-control" placeholder="enter your answer here" aria-describedby="sizing-addon1">
                 </div>
-                <button type="button">save answer</button><br/><br/>
-        <button type="button">submit quizz</button>
+                <button class="save">save answer</button><br/><br/>
+        <button class="button">Submit the quiz</button>
     </section>
 </main>
     <!-- footer -->
