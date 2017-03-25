@@ -1,4 +1,4 @@
-/*Victoria Chernyaeva COMP 1950*/
+/*Victoria Chernyaeva & Ken Andreasen COMP 1950 Final project*/
 $(document).ready(function () {
 
 	$("#nav").hide();
