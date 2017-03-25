@@ -1,0 +1,140 @@
+/*Styling for smart phones*/
+@media only screen and (max-width: 768px){
+    /*Navigation*/
+ .dropbtn {
+        background-color: #13073A;
+        color: white;
+        padding: 16px;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+    }
+
+    .dropdown {
+        position: relative;
+    }
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        z-index: 1;
+    }
+
+    .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+
+    .dropdown-content a:hover {background-color: #f1f1f1}
+
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+
+    .dropdown:hover .dropbtn {
+        background-color: #13073A;
+    }
+    nav {
+        background-color:  #13073A;
+    }
+}
+/*Devices bigger than smartphone*/
+@media only screen and (min-width: 768px){
+    body{
+        margin: 0;
+        padding: 0;
+    }
+ 
+    /*Navigation*/
+    .dropbtn {
+        background-color: #13073A;
+        color: white;
+        padding: 16px;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+    }
+
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        z-index: 1;
+    }
+
+    .dropdown-content a {
+        color: #13073A;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+
+    .dropdown-content a:hover {background-color: #f1f1f1}
+
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+
+    .dropdown:hover .dropbtn {
+        background-color: #13073A;
+    }
+    nav  {
+        background-color:  #13073A;
+    }
+    footer {
+        background-color:  #4CAF50;
+        height: 50px;
+        text-align: center;
+        color: white;
+        padding-top: 20px;
+    }
+    main {
+        padding-left: 20px;
+        padding-top: 20px;
+    }
+}
+
+@media only screen and (min-width: 1028px){
+    main {
+        width: 70%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
+/*For every screen*/
+    footer {
+        background-color:  #13073A;
+        height: 50px;
+        text-align: center;
+        color: white;
+        padding-top: 20px;
+        margin-top: 50px;
+    }
+    h1, h2, h3 {
+        color: #403075;
+    }
+   /*Top image*/
+    #banner {
+        height: 600px;
+        background-image: url("img/pc-1207886_1280.jpg");
+    }
+body{
+     font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+section{
+    border: dotted;
+    border-width: 2px;
+    padding-left: 10px;
+}
+
+.fullscreen-bg{}

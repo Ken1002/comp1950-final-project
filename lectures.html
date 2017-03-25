@@ -1,0 +1,357 @@
+<!--This is a couse file taken from http://bcitcomp.ca/1950/ and modified by Victoria Chernyaeva -->
+<!DOCTYPE html>
+<head>
+	<title>COMP 1950 Final Project</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <!--Bootstrap-->
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    
+	<link rel="stylesheet" 
+          type="text/css" 
+          href="/style.css" media="screen"/>
+
+</head>
+<body>
+    <div id="banner">
+        <h1>bcit</h1>
+    </div>
+    <nav>
+        <div class="dropdown">
+            <button class="dropbtn"><a href="/index.html">Home</a></button>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn">Lectures</button>
+            <div class="dropdown-content">
+            <a href="/lectures.html">Lecture 1</a>
+            <a href="#">Lecture 2</a>
+            <a href="#">Lecture 3</a>
+            <a href="#">Lecture 4</a>
+            <a href="#">Lecture 5</a>
+            <a href="#">Lecture 6</a>
+            <a href="#">Lecture 7</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn">Homework</button>
+            <div class="dropdown-content">
+            <a href="/homework.html">Homework 1</a>
+            <a href="#">Homework 2</a>
+            <a href="#">Homework 3</a>
+            <a href="#">Homework 4</a>
+            <a href="#">Homework 5</a>
+            <a href="#">Homework 6</a>
+            <a href="#">Homework 7</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn">Quizzes</button>
+            <div class="dropdown-content">
+            <a href="#">Quiz 1</a>
+            <a href="#">Quiz 2</a>
+            <a href="#">Quiz 3</a>
+            </div>
+        </div>
+    </nav>
+<main>
+    <h1>Lecture one: course introduction</h1>
+    
+    <section>
+    <h2>Orientation: Web space</h2>
+        <p>Each student will get personal webspace. This is not a continuation of your COMP1850 site (if you had one).  This site is primarily for you to house your exercises, assignments, group work and more.  Make it a site that is usable and functional.</p>
+		<ul>
+			<li>Your instructor will create webspaces for each of you.</li>
+			<li>Email your instructor this information:
+			<ul>
+				<li>your myBCIT email name - eg: youname123@my.bcit.ca</li>
+				<li>your student number - eg: A00123456</li>
+				<li>a case sensitive password you will remember - ???</li>
+			</ul>
+			</li>
+			<li>Your URL will be: <strong>http://bcitcomp.ca/students/{your_mybcit_email_name}</strong></li>
+		</ul>
+    <h2>Connect to your bcitcomp.ca account via FTP</h2>
+		<p>Use Filezilla, or any FTP client to connect to bcitcomp.ca. The bcitcomp.ca server provides you with a space on the internet where you can publish your homework and assignments.</p>
+
+		<ol>	
+            <li>choose: File->SiteManager->New Site, then describe the FTP server, eg "bcitcomp.ca"</li>
+            <li>Host:   bcitcomp.ca </li>
+            <li>Port:   21</li>
+            <li>User:   {yourStudentNumberUsingAnUppercaseA}@bcitcomp.ca </li>
+            <li>Password:  {determined by you via email to your instructor} </li>
+            <li>Servertype:  FTP File Transfer Protocol </li>
+            <li>LogonType:  Normal </li>
+            <li>click: Connect</li>
+		</ol>
+		
+        <p>If you experience connectivity problems, re-check your input, or ask your instructor for assistance.</p>
+    </section>
+   
+    <section>
+        <h2>Tools: Web Development</h2>
+            <p>There are a LOT of tools to choose from these days. Desktop and mobile apps, online tools and services, etc. </p>
+            <p>
+                <strong>What kind of tools do you use?</strong>
+            </p>
+            <p>
+                Workflow is defined as the process you take getting from start to completion on a task or series of tasks. For web development, it generally results in a page that has been created or updated by the use some kind of tool.
+            </p>
+            <p>There is no perfect platform or workflow, there is only <strong>your</strong> platform and workflow that matters.  Once you can get the job done, you are off to the races, so find a workflow that suits you the best.</p>
+
+            <p>Some of the tools used by web developers...</p>
+        <h3>Text Editors</h3>	
+            <ul>
+                <li><a href="http://notepad-plus-plus.org/">Notepad++</a> - Text Editor (Win) * installed in BCIT lab computers *</li>
+                <li><a href="http://www.sublimetext.com/2">Sublime Text 2</a> - Text Editor (Mac/Win)</li>
+                <li><a href="http://www.barebones.com/products/textwrangler/">Text Wrangler</a> - Text Editor (Mac)</li>
+            </ul>
+        <h3>FTP (File Transfer Protocol) Clients</h3>	
+            <ul>				
+                <li><a href="http://filezilla-project.org">Filezilla</a> - FTP tool (Win) * installed in BCIT lab computers *</li>
+                <li><a href="http://cyberduck.ch/">Cyberduck FTP</a> - FTP tool (Mac)</li>
+            <li><a href="http://www.wsftple.com/">WS FTP</a> - FTP tool (Win)</li>		
+
+        </ul>
+        <h3>IDEs (Integrated Development Environments)</h3>
+            <ul>		
+                <li><a href="http://www.panic.com/coda/">Coda</a> - Web Dev IDE (Mac)</li>
+                <li><a href="http://www.adobe.com/products/dreamweaver.html">Dreamweaver</a> - Web Dev IDE (Mac/Win)</li>
+                <li><a href="http://www.aptana.com/">Aptana</a> - Web Dev IDE (Win/Mac)</li>
+                <li><a href="http://www.htmlkit.com/">HTMLKit</a> - Web Dev IDE (Win)</li>
+                <li><a href="http://www.textasticapp.com/">Textastic</a> - Web Dev IDE (iPad)</li>
+                <li><a href="http://www.activestate.com/komodo-edit">Komodo</a> - Web Dev IDE (Mac/Win)</li>
+            </ul>
+        <h3>Team Development</h3>
+            <ul>		
+                <li><a href="http://dropbox.com">Dropbox</a> - File Sharing (Web)</li>
+                <li><a href="https://github.com/">GitHub</a> - Collaborative Development (Web/Client)</li>
+            </ul>
+    
+        <h2>Tools: Browser-based development</h2>
+            <p>
+                Today, most modern browsers have some kind of development environment that can be turned on or triggered via extensions and/or plug-ins.
+            </p>
+            <p>
+                There are presently two major development platforms, with a few variations for examining and developing web pages.
+            </p>
+                <ul>
+                <li><a href="http://www.mozilla.org/en-US/firefox/new/">Firefox</a>
+                    <ul>
+                        <li>Mozilla Foundation's web platform created by web developers</li>
+                        <li>Gecko rendering engine: fast and progressive</li>
+                        <li>Excellent level of standards compliance</li>
+                        <li>Corporate independence</li>
+                        <li>No built-in development tools</li>
+                        <li>Plethora of add-ons that make web development easy</li>
+                        <li>Add-ons have a downside: bloat</li>
+                    </ul></li>
+                </ul>
+                <ul>
+                <li><a href="http://www.webkit.org/">WebKit</a>
+                    <ul>
+                        <li>This is the platform that gives us <a href="http://www.google.com/chrome">Chrome</a>, <a href="http://www.apple.com/safari/">Safari</a> and <a href="http://www.opera.com/">Opera</a>, with a few other smaller browsers out there as well.</li>
+                        <li>Excellent platform that is very fast and standards compliant</li>
+                        <li>Third parties can download the source, make local adjustments and release their own version, as Google and Apple have both done</li>
+                        <li>Standalone version can be downloaded at any time for the latest release</li>
+                        <li>Development is done via the built-in Developer Tools</li>
+                        <li>Initially a thin environment, recent releases have made Webkit-based browsers excellent for developers</li>
+                        <li>Macintosh based developers may need to <a href="http://www.jonhartmann.com/index.cfm/2011/4/28/Enabling-Safari-Developer-Tools">enable web developer options</a> in Safari before accessing the devloper tools</li>
+                    </ul></li>
+                </ul>
+            <p>
+                <strong>Remember to test in as many browsers as you can! Useful tools for this are <a href="http://browsershots.org/">BrowserShots</a> (Chrome, Firefox, Safari, Opera) and <a href="http://netrenderer.com/">Netrenderer</a> (For IE)</strong>
+            </p>
+        <h2>Tools: Firefox Extensions</h2>
+            <p>Extensions are a big part of Firefox, especially considering the background the browser has in web development.</p>
+
+            <p>
+            In fact, web development even has it's own category dedicated to <a href="https://addons.mozilla.org/en-US/firefox/browse/type:1/cat:4">Web and Developer Tools</a> 
+            </p>
+
+            <p>
+            One of the best tools for Web Developers is the <a href="https://addons.mozilla.org/en-US/firefox/addon/web-developer/?src=search">
+            Web Developer toolbar
+            </a>
+            </p>
+
+            <p>The author, Chris Pedrick, maintains a <a href="http://chrispederick.com/work/webdeveloper/">
+            site for the Web Developer extension</a>. He has even created a version for seeral other browsers, though it isn't quite as full-featured.
+
+            </p>
+            <p>Some of the amazing tools this has to offer web developers:
+            </p><ul>
+                <li>Disable styles - by embedded/linked/inline as well as all styles, or just a single sheet</li>
+                <li>Edit CSS &amp; HTML - Make live changes to your CSS or HTML!</li>
+                <li>Images - outlining, file sizes, alt information... lots more</li>
+                <li>Form detail - useful for working with form elements</li>
+                <li>Cookie examination and manipulation</li>
+                <li>Built in validators</li>
+                <li>Line Guides &amp; Rulers</li>
+                <li>Element inspector</li>
+            </ul>
+            <p></p>
+
+            <p>
+                <strong>Let's take a quick look at the Web Developer Toolbar</strong>
+            </p>
+            <ul>
+                <li>Install it if you have not already done so</li>
+                <li>Validate the HTML of this page with the Tools tab (Tools &gt; Validate HTML)</li>
+                <li>Validate the CSS of this page with the Tools tab (Tools &gt; Validate CSS)</li>	
+                <li>View the CSS of the page (CSS &gt; View)</li>
+            </ul>
+        <h2>Browser Based Diagnostic Tools</h2>
+            <p>As web pages get more complex, it can become difficult figuring out what is going on. For example, CSS rules that override other CSS rules, if spread across several files, can be challenge to make sense of. Having a diagnostic tool to assist in developing will make it easier to examine every detail of web pages. </p>	
+            <ul>
+                <li><a href="http://www.getfirebug.com/" title="Get Firebug!">Diagnostic Tool: Firefox Firebug</a></li>
+                <li><a href="https://developers.google.com/chrome-developer-tools/">Diagnostic Tool: Chrome</a></li>
+                <li> <a href="https://developer.apple.com/safari/tools/" >Diagnostic Tool: Safari</a></li>
+                <li><a href="http://msdn.microsoft.com/en-ca/library/gg589507(v=vs.85).aspx" >Diagnostic Tool: Internet Explorer</a></li>
+            </ul>
+
+                <p>Get familiar with using one of these tools. You will be required to use them in the classes ahead.</p>
+                <p><strong>NOTE:</strong> changes you make with the tool are <strong>client based</strong>, this does not actually affect the HTML/CSS files</p>
+                <p>These tools go beyond outlining, examining and editing into deep troubleshooting of network, javascript and even XHR (XMLHttpRequest).</p>
+
+            <h2>Exercise: Work with a broswer diagnotic tool</h2>
+                    <ul>
+                        <li>open or install one of the browser diagnostic tools</li>
+                        <li>use the element selector to inspect parts of the page. take note if there is a color coded display for determining margin, padding, etc</li>
+                        <li>select elements and examine the CSS cascade affecting them</li>
+                        <li>enable or disable some CSS rules</li>			
+                        <li>add a new CSS rule of your own</li>		
+                        <li>add or change some of the HTML</li>		
+                        <li>refresh your browser... and watch all your alterations turn into nothing but sweet memories!</li>		
+                    </ul>
+        <h2>Developer Tools Wrap up</h2>
+            <ul>
+                <li>Firefox was the first browser to have real tools embedded and, with extensions, it's a real powerhouse now</li>
+                <li>The last few years have seen a constant progression of improved tools in other browsers, bringing everything up a significant notch</li>
+                <li>Not a bad idea to have a &quot;dev browser&quot; that can be weighted down with tools</li>
+            </ul>
+        <h2>Standards: Web</h2>
+            <h3>ISO: International Organization for Standards ( <a href="http://www.iso.org/">
+        http://www.iso.org</a>)</h3>
+            <ul>
+                <li><strong>1906</strong>: As the Intn'l Electrotechnical Commission (IEC): in order to better access pre-determined equipment that was interchangeable and interoperable</li>
+                <li><strong>1947</strong>: 25 countries got together to form ISO: "to facilitate the international coordination and unification of industrial standards"</li>
+                <li>Companies agree to become a part of ISO, and gain access to the complete library of standards set by the organization in concert with their many members</li>
+                <li>While it started slowly, many companies ignored standards, in favor of their own "proprietary" methods</li>
+                <li>Momentum, corporate marketing (companies advertising that their product or method conforms with ISO XXXX), and some government legislation (forcing the adoption of certain standards) led to a larger adoption of standards</li>
+            </ul>
+
+            <h3>W3C: World Wide Web Consortium ( <a href="http://www.w3.org/">http://www.w3.org</a> )</h3>
+
+            <ul>
+                <li>Web standards are going through the same process that the ISO went through</li>
+                <li>Many companies see the benefits of interoperability - many are still "forging their own"</li>
+                <li>Many companies have standards: Adobe, Microsoft, Apple, Ford, GM</li>
+                <li>Many are proprietary standards, and are not supported by many companies</li>
+                <li>W3C - World Wide Web Consortium: founded by Tim Berners-Lee to try and uniformly put forward standards through a single communication vehicle</li>
+                <li>Leading browser makers did not follow, initially</li>
+                <li>Designers were 'taking sides' in the browser wars: users were losers</li>
+            </ul>
+
+            <h3>W3C Goals</h3>
+            <ol>
+                <li><strong>Universal Access</strong>: To make the Web accessible to all by promoting technologies that take into account the vast differences in culture, languages, education, ability, material resources, access devices, and physical limitations of users on all continents;</li>
+                <li><strong>Semantic Web</strong>: To develop a software environment that permits each user to make the best use of the resources available on the Web;</li>
+                <li><strong>Web of Trust</strong>: To guide the Web's development with careful consideration for the novel legal, commercial, and social issues raised by this technology.</li>
+            </ol>
+
+            <h3>Making Progress</h3>
+            <ul>
+                <li>Eventually, the drive towards standards began to win out</li>
+                <li>Users made their voices known and momentum started to slowly shift toward supporting standards</li>
+                <li>Seen as a marketing opportunity: <em>Our browser supports standards!</em></li>
+                <li>Mozilla Project emerged after a large number of Netscape developers were let go upon the acquisition by AOL</li>
+                <li>Mozilla is now a standards-compliant browser with many features</li>
+                <li>Microsoft and AOL followed shortly with adoption of W3C standards (with limitations)</li>
+                <li>Large companies started joining the W3C to be seen as part of the Standards game</li>
+            </ul>
+
+        <h3>For Web Developers</h3>
+            <p>Designing to current W3C specifications means that:</p>
+            <ul>
+                <li>your pages will be viewable in the largest number of browsers, </li>
+                <li>the largest number of devices </li>
+                <li>and (if used correctly) will gracefully degrade as support for CSS or other presentation layers are absent.</li>
+            </ul>
+            <p>Some more words about <a href="http://www.webstandards.org/learn/faq/">Web Standards</a> worth reading</p>
+            <h3>Discussion:</h3>
+            <ul>
+            <li>what is the current W3C recommended version for HTML?</li>
+            <li>what is the current W3C recommended version for CSS?</li>
+            <li>what are the consequences of using a non-standard version?</li>
+
+            <li>Include a <a href="http://validator.w3.org/check?uri=referer">referer link</a> on all your COMP1950 pages: <br /><code>&lt;a href="http://validator.w3.org/check?uri=referer"&gt;validate&lt;/a&gt;</code>.</li>
+            </ul>
+                    
+        <h2>Details of Standards-Driven Development</h2>
+            <h3>Three goals of standards-driven development:</h3>
+                <ol>
+                    <li>compatibility (creating web pages that work well in all browsers)</li>
+                    <li>portability (writing code that works well in any computing environment/operating system)</li>
+                    <li>accessibility (produce web pages that are optimized for search engines, screen readers, etc)</li>
+                </ol>
+
+            <h3>Requirements</h3>
+            <ul>
+                <li>HTML + CSS + DOM = Agile Web Sites</li>
+                <li>Structurally valid HTML code (eg: tags that open are closed. parent-child tag relationships are valid, etc)</li>
+                <li>Logically valid HTML code (eg: ids are not applied more than once per page)</li>
+                <li>Use CSS to develop sites that separate content (HTML) from presentation (CSS)</li>
+                <li>Using Semantic Markup to establish content relationships and logical deployment of content</li>
+            </ul>
+
+            <h3>Future Compatibility</h3> 
+            <ul>
+                <li>Code is easier to use for future developers</li>
+                <li>Less presentational HTML means easier design changes</li>
+                <li>Keep the same code for longer periods of time</li>
+                <li>Optimally, <strong>never</strong> change your code (if all presentation is gone)</li>
+            </ul>
+
+            <h3>Reduced Development Costs</h3>
+            <ul>
+                <li>Shorter development times for style changes</li>
+                <li>CSS based layouts are easier to redesign, superior to HTML table layouts</li>
+                <li>Easier to integrate with CMS (Content Management System) tools</li>
+            </ul>
+
+            <h3>Special Needs</h3>
+            <ul>
+                <li>HTML lends itself to assistive readers (low vision, etc)</li>
+                <li>Can support multiple stylesheets for different user needs</li>
+                <li>An eye-opening exercise: try browsing with <a href="http://www.webbie.org.uk/">Webbie</a>, a browser for the blind</li>
+            </ul>
+
+
+            <h3>Single Codebase</h3>
+            <ul>
+                <li>No complex browser sniffing scripts</li>
+                <li>Avoid having to support multiple browsers with multiple home/site pages (code forking)</li>
+                <li>Much less upkeep (only one source to update)</li>
+            </ul>
+
+
+
+            <h3>Moving Forward</h3>
+            <ul>
+                <li>HTML5: utilize the new tags to further increase semantic meaning of our web pages</li>
+                <li>The better your HTML elements, classes and IDs, the easier it will be to manipulate them with advanced frameworks such as jQuery</li>
+            </ul>
+    </section>
+
+</main>
+    <!-- footer -->
+		<footer>
+            <p>COMP 1950 Final Project</p>
+        </footer>
+</body>

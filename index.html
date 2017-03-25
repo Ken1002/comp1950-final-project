@@ -1,204 +1,121 @@
-
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!--This is a couse file taken from http://bcitcomp.ca/1950/ and modified by Victoria Chernyaeva -->
+<!DOCTYPE html>
 <head>
-	<title>comp 1950 | lecture eleven: group project work</title>
+	<title>COMP 1950 Final Project</title>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-	<link rel="stylesheet" type="text/css" href="/1950/css/comp1.css" media="screen" />
-	<link rel="alternate stylesheet" href="/1950/css/overhead.css" type="text/css" media="screen" title="Overhead" />
-	<link rel="stylesheet" type="text/css" href="/1950/css/print.css" media="print" />
+    <!--Bootstrap-->
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    
+	<link rel="stylesheet" 
+          type="text/css" 
+          href="/style.css" media="screen"/>
+	
+		<style>
+		.fullscreen-bg {
+		    position: fixed;
+		    top: 0;
+		    right: 0;
+		    bottom: 0;
+		    left: 0;
+		    overflow: hidden;
+		    z-index: -100;
+		}
+
+		.fullscreen-bg__video {
+		    position: absolute;
+		    top: 0;
+		    left: 0;
+		    width: 100%;
+		    height: 100%;
+		}
+		.list-group-item {
+  		margin-right: 70%;
+  
+		}
+	</style>
 
 </head>
 <body>
-
-<div id="banner">
-	<a name="top"></a>
-	<h1>british columbia institute of technology</h1>
-</div>
-
-<div id="titlebar">comp 1950 | intermediate web design and development</div>
-
-<div id="docbox">
-
-	<div id="maincont">
-		<h1>lecture eleven: group project work</h1>
-
-            <h2>
-               Major Project 
-            </h2>
-<h1>new branch</h1>			
-<div class="contblock">
-<h3>Project Overview</h3>
-<p>Using production methods andczcldjkfklsdjfls development techniques from throughout this course, your group will create a proto-site and documents to support the redesign of the COMP1950 web site.</p>
-
-
-<h3>Requirements</h3>
-<p>The COMP 1950 owner would like the web site redesigned in order to better meet the needs of students.  The website owner has contracted your group, as students of the class, to act as contractors for this project.</p>
-
-<h3>Project Goals</h3>
-<ul>
-	<li>Students must have easy access to notes, examples and other information</li>
-	<li>The site should reflect the aims of the course: Standards compliant web development, CSS, HTML 5, Methodology-driven design, etc</li>
-	<li>Think outside the box - don't just copy the current design.  Look around at other sites and use your creativity.  But - be realistic!  Make your suggestions something that can work</li>
-	<li>If you have questions that will further refine your own direction, ask the owner of the site for details</li>
-	<li>Think about this project in context of the Methodology discussion of session 10.</li>
-	<li>Your client (instructor) has filled out a <a href="/comp1950/downloads/project_questionnaire_filled_out.pdf">project questionnaire </a> to better clarify what they are looking for.</li>
-</ul>
-
-<h3>Deliverables</h3>
-<ul>
-	<li>For this project, you have been contracted to provide a protosite and supporting documents for the proposed website</li>
-	<li>You will create a web site that describes the project and includes links to various project artifacts.  This is generally known as a <em>meta site</em>. Note the meta site is about the entire redesign project, it will include the proposed site redesign, but it is not itself the redesign. It should have its own appealing design and layout, distinct from the proposed site redesign</li>
+	<div class="fullscreen-bg">
 		
-		<li>The meta site should include:
-		<ol>
+        <h1>bcit</h1>
+    </div>
+    <nav>
+        <div class="dropdown">
+            <button class="dropbtn"><a href="/index.html">Home</a></button>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn">Lectures</button>
+            <div class="dropdown-content">
+            <a href="/lectures.html">Lecture 1</a>
+            <a href="#">Lecture 2</a>
+            <a href="#">Lecture 3</a>
+            <a href="#">Lecture 4</a>
+            <a href="#">Lecture 5</a>
+            <a href="#">Lecture 6</a>
+            <a href="#">Lecture 7</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn">Homework</button>
+            <div class="dropdown-content">
+            <a href="/homework.html">Homework 1</a>
+            <a href="#">Homework 2</a>
+            <a href="#">Homework 3</a>
+            <a href="#">Homework 4</a>
+            <a href="#">Homework 5</a>
+            <a href="#">Homework 6</a>
+            <a href="#">Homework 7</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn">Quizzes</button>
+            <div class="dropdown-content">
+            <a href="#">Quiz 1</a>
+            <a href="#">Quiz 2</a>
+            <a href="#">Quiz 3</a>
+            </div>
+        </div>
+    </nav>
+<main>	
+		<h1>Course Description</h1>
 
-		<li>An <strong>Introduction</strong> page that describes the project and the members of the team.  This page should also list what each team member actually did during the project, and provide a navigation for the rest of the project web site.</li>
-		<li>A <strong>proto-site</strong> that has at least four of the pages mocked up.  Preferably pages that are representative of different page types, eg: the home page, a lecture page an example quiz page, etc. The mockup pages must be styled to reflect the website you propose to build. It should demonstrate the proposed layout, color scheme, font choices and an example site navigation. All proto-site pages should have two optional stylesheets: one normal view, one for the in-class overhead projector. They should also feature a printer optimized stylesheet.</li>
-		<li><strong>Sitemap</strong> should demonstrate the proposed website information architecture by showing a site map. The links of the sitemap dont need to link to anything. (<a href="sitemap.html">Example sitemap</a>) (HTML, Word or Visio)</li>
-		<li><strong>Rationale</strong> page - this is among the most important pages in your project. This is your chance to 'sell' your efforts to your client instructor. This is where you describe <strong>why</strong> you chose to build the site in the way you have proposed. List all the deliverables you have implemented, and and any features or improvements you have added. Justify your decisions for choosing a particular layout and design. If you used advanced technology such as jQuery or CSS3, mention where it is being used, and why. Also List any features you had planned to implement but could not complete. If your rationale does not decribe a sufficient quantity of improvements, and if it does not effectively make a case for how these changes improve the site, your client will not be conviced that your team is the best choice.</li>
-		<li>All of this should be presented in an <em>HTML 5 compliant web site with CSS</em></li>
-		<li>The layout must handle well in desktop and laptop <em>modern browsers</em> with varying widths and heights. It does not neccessarily have to be optimized for handheld devices, unless your group decides this would be a useful feature.</li>
-		</ol></li>
-</ul>
+		<div>
+		<p><b>COMP 1950</b> follows on from <a href="http://www.bcit.ca/study/courses/comp1850">COMP 1850</a> in more depth and introduces new topics and techniques for developing effective web sites.</p>
 
-<h3>Teamwork</h3>
-<ul>
-	<li>This project will require work from all members of your team</li>
-	<li>Start by agreeing on a plan of attack - get agreement!</li>
-	<li>Begin making decisions on how the site will look, what functions it needs to have, how users will access information</li>
-	<li>Draw some sketches for how it could look, think about labels and information design</li>
-	<li>Once you know what needs to be on the site and how it will look, divide up the work for the entire project. Make sure your team knows who is doing what</li>
-	<li>There is plenty to do, you may have to be willing to delegate tasks you might otherwise prefer to do yourself</li>
-</ul>
- 
 
-<h3>Validation and Presentation</h3>
-  <ul>
 
-  	<li>All content must be valid HTML 5 (exceptions allowed for non-structural errors)</li>
-    <li>All presentation must be valid CSS</li>
-<!--  	<li>Add a link on each page to validate:
-      <ul>
-        <li>HTML: <a href="http://validator.w3.org/">http://validator.w3.org/</a></li>
-      </ul></li>-->
-    <li>Exceptions will be made for non-structural errors (eg: query strings)</li>
-	<li>Code must be commented and tabbed</li>
-	<li>SEO principles must be followed on all documents</li>
-	<li>Demonstrate to your client that your team takes pride in their work by ensuring the entire meta-site and proto-site experience is built with care. </li>
-</ul>
-	
+		<p>Students will gain a deeper understanding of HTML and CSS. Topics will include: Current and emerging trends in HTML, detailed use of CSS for layout and presentation, an introduction to JavaScript frameworks such as jQuery, how to leverage Server Side Includes (SSI) for re-usable code, and working with Content Management Systems.</p>
 
-	<h3>Remember!</h3>
+        <h3>Course goals</h3>
+        <ul>
+            <li>To gain a deeper understanding of HTML, CSS and advanced topics in web development.</li>
+            <li>To focus on best practices in web page and web site design.</li>
+        </ul>
+        <h3>Course learning outcomes / competencies</h3>
 
-	<ul>
-		<li>Look at the existing site, but don't necessarily base your new site on that one. Think outside the box! Be creative!</li>
-		<li>As a student, <em>YOU are the audience</em>.  Talk to your cohorts, spend time considering the current experience, design the site the way you think it would work best.</li>
-<li>You <strong>do not</strong> have to include actual notes for the class.  This project is to produce a proof-of-concept of the new COMP 1950 site</li>
+        <p>Upon successful completion of this course, the student will be able to:</p>
+        <ul>
+            <li>Deploy HTML5 and CSS3 effectively for new, old, and future web browsers.</li>
+            <li>Understand and apply concepts for Search Engine Optimized content (SEO).</li>
+            <li>Employ Web Standards when building web sites for maximum compatibility.</li>
+            <li>Create dynamic content using JavaScript frameworks like jQuery.</li>
+            <li>Implement Server Side techniques for efficient web development.</li>
+            <li>Create template-driven pages for use in Content Management systems.</li>
+            <li>Understand basic development methodology.</li>
+        </ul>
 
-<li>Be sure to schedule time to 'bring it all together' before due date.</li>
-
-	</ul>
-
-<h3>Submission</h3>
-<ul>
-	<li><strong>The final project is due by midnight the night before session #12.</strong>	</li>
-	<li>Once complete, have your team representative email a URL for your project site to your instructor</li>
-</ul>
-</div>
-
-<h2>Group Work Location</h2>
-<div class="contblock">
-	<p>Your group may use the COMP1950 classroom during Session 11.</p>
-	<p>Alternatively, if your team is in agreement, you may choose to meet offsite, at a favorite coffee shop, office space, at home or online. Your client (instructor) will be readily available throughout the day via email if you are not present in class.</p>
-</div>
-
-		<!-- footer -->
-		<div id="footer">
-			<a href="#top">Top of Page</a> | <a href="/comp1950/">Home</a>
 		</div>
-	</div>
-
-	<div id="rightcont">
-		
-<h2 class="navhead">contents</h2>
-
-
-	<a href="/1950/">home</a>
-	<span class="none"> | </span>
-
-
-	<a href="/1950/courseinfo/">about the course</a>
-	<span class="none"> | </span>
-
-
-
-	<a href="/1950/resources/">resources</a>
-	<span class="none"> | </span>
-
-
-	<!-- 
-****************************************************************
-<a href="/1950/lectures/three"> </a>	
-
-<span class="greyout">
-****************************************************************
-	-->
-	<h2 class="navhead">lectures</h2>
-	
-<a href="/1950/lectures/">01 | tools &amp; standards</a>	<span class="none"> | </span>
-
-<a href="/1950/lectures/two/">02 | html5</a>	<span class="none"> | </span>
-
-
-
-<a href="/1950/lectures/three/">03 | css techniques</a>	<span class="none"> | </span>
-
-
-<a href="/1950/lectures/four/">04 | css layouts</a>	
-	<span class="none"> | </span>
-
-<a href="/1950/lectures/five/">05 | responsive css</a>	
-	<span class="none"> | </span>
-
-<a href="/1950/lectures/six/">06 | css3</a>	
-	<span class="none"> | </span>
-
-<a href="/1950/lectures/seven/">07 | javascript frameworks</a>	<span class="none"> | </span>
-
-<a href="/1950/lectures/eight/">08 | dynamic content</a>	<span class="none"> | </span>
-
-<span class="greyout">09 | templating, seo</span>	<span class="none"> | </span>
-
-<span class="greyout">10 | methodology</span>	<span class="none"> | </span>
-
-	<span class="navoff">11 | project work</span>
-	<span class="none"> | </span>
-
-	<h2 class="navhead">contact</h2>
-	
-	<a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#106;&#101;&#102;&#102;&#114;&#101;&#121;&#95;&#112;&#97;&#114;&#107;&#101;&#114;&#64;&#98;&#99;&#105;&#116;&#46;&#99;&#97;">jeff parker</a>
-	<span class="none"> | </span>
-
-
-	<h2 class="navhead">associated</h2>
-	
-	<a href="http://bcitcomp.ca/students/">students on bcitcomp.ca</a>
-	<span class="none"> | </span>
-
-	<a href="http://my.bcit.ca/">my.bcit</a>
-	<span class="none"> | </span>
-
-	<a href="http://www.bcit.ca/">bcit</a>
-	<span class="none"> | </span>
-	
-	<a href="http://www.bcit.ca/cas/computing/">bcit: computing</a>
-	<span class="none"> | </span>
-
-	</div>
-
-</div>
-
+    </main>
+<!-- footer -->
+		<footer>
+            <p>COMP 1950 Final Project</p>
+        </footer>
 </body>
-</html>
-
