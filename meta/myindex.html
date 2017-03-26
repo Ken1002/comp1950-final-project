@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<title>Comp 1950 Proto-Site</title> 
+<meta charset="utf-8">
+<meta name="description" content="Comp 1950 Proto-Site">
+<link rel="stylesheet" href="css/style.css"/>
+
+<script type="text/javascript" src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.10.2.js"></script>
+<link href='http://fonts.googleapis.com/css?family=Wellfleet' rel='stylesheet' type='text/css'>
+
+<!-- Mobile viewport consideration 
+    this will deal with those pesky 'retina' displays
+    that can make a physically small device 
+    appear much larger to a media query
+-->	
+<meta name="viewport" content="width=device-width,initial-scale=1">
+
+<!--[if lt IE 9]>
+	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+</head>
+ 
+ 
+<link href='http://fonts.googleapis.com/css?family=Wellfleet' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Arvo:400,700,400italic,700italic' rel='stylesheet' type='text/css'> 
+<link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Goudy+Bookletter+1911' rel='stylesheet' type='text/css'>
+<script>
+<!----- JQUERY FOR SLIDING NAVIGATION --->   
+$(document).ready(function() {
+  $('a[href*=#]').each(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
+    && location.hostname == this.hostname
+    && this.hash.replace(/#/,'') ) {
+      var $targetId = $(this.hash), $targetAnchor = $('[name=' + this.hash.slice(1) +']');
+      var $target = $targetId.length ? $targetId : $targetAnchor.length ? $targetAnchor : false;
+       if ($target) {
+         var targetOffset = $target.offset().top;
+
+<!----- JQUERY CLICK FUNCTION REMOVE AND ADD CLASS "ACTIVE" + SCROLL TO THE #DIV--->   
+         $(this).click(function() {
+            $("nav li a").removeClass("active");
+            $(this).addClass('active');
+           $('html, body').animate({scrollTop: targetOffset}, 1000);
+           return false;
+         });
+      }
+    }
+  });
+}); 
+ 
+ </script>
+</head>
+
+
+
+
+<body>
+<!----- HEADER START---> 
+<header id="header">
+<div class="content">
+<div id="logo"><a href=""> META PAGES </a></div>
+  <nav>
+    <ul>
+      <li><a href="#slide1"  class="active" title="Next Section" >Main</a></li>
+      <li><a href="#slide2"  title="Next Section">Introduction</a></li>
+      <li><a href="#slide4"  title="Next Section">Design Team</a></li>
+      <li><a href="#slide6"  title="Next Section">Responsibilities</a></li>     
+      <li><a href="#slide8"  title="Next Section">Original Site</a></li>     
+      <li><a href="#slide10" title="Next Section">New Site Rational</a></li>
+      <li><a href="#slide12" title="Next Section">New Site Features 1</a></li>    
+      <li><a href="#slide14" title="Next Section">New Site Features 2</a></li>        
+      <li><a href="#slide15" title="Next Section">Proto-Site</a></li>        
+    </ul>
+  </nav>
+</div>
+</header>
+
+<!----- SLIDES START ---> 
+<section id="slide1">
+   <div class="content">
+     <h1>COMP1950</h1>
+     <h1>CMS SITE UPGRADE</h1>     
+     <div id="divider"> </div>
+     <div id="bcit"></div>
+   </div> 
+</section> 
+
+<section id="slide2">
+  <div class="content" >
+    <div class="info_container">
+      <h3 class="info">Introduction</h3>
+      <p class="info">
+         The project we are proposing is a redesign of the COMP 1950 website.   Our goal is to provide an interactive site that permits students to find their weekly lessons, assignments, quizzes, course information, resources, exercises and examples.  We will also provide information about the course curriculum, timetable, room information, grading, BCIT policies, and links to the main BCIT course registration site as well.
+      </p>
+    </div>
+  </div>
+</section> 
+
+ 
+<section id="slide3">
+  <div class="content">
+    <div class="info_container">
+      <h3 class="info"> </h3>
+      <img src="" > <h4> </h4>
+    </div> 
+   </div> 
+</section> 
+ 
+ <section id="slide4">
+   <div class="content" >
+      <div class="info_container">
+        <h3 class="info">The Design Team</h3>
+        <div class="avitarbox">
+          <img src="img/250victoria.jpg" class="avitar">       
+          <p class="info"><b>Victoria Chernyaeva</b> Has taken a Web Development 1 class at Langara college, and has an exellent knowledge of HTML and CSS. Her favourite tools are Brackets, Adobe Photoshop, Adobe Illustrator, Google Chrome, Mac Book.
+          </p>
+        </div>
+        <div class="clear" class="avitarbox">
+          <img src="img/250ken.jpg" class="avitar" class="clear">       
+          <p class="info"><b>Ken Andreasen</b> earned his diploma of technology from BCIT in 1986 from the Electrical and Electronics program. He has 30 years relavent experience with the design, repair, and installation of electronic and mechanical control systems. He has programmed in many different programming lauguages, and adapts well to any type of work environment. 
+          </p>
+        </div>
+     </div> 
+   </div> 
+ </section> 
+ 
+<section id="slide5">
+  <div class="content">
+    <div class="info_container">
+    <h3 class="info"> </h3>
+    <img src="" > <h4> </h4>
+    </div> 
+  </div> 
+</section> 
+
+<section id="slide6">
+  <div class="content" >
+    <div class="info_container">
+      <h3 class="info">Responsibilities</h3>     
+      <ul class="info">
+        <li>Victoria C: Made wire frame mockup’s and then built the Proto-Site area using HTML, CSS, and JS</li>
+        <li>Ken A: Wrote the descriptions for the Meta pages and then build the Meta pages using HTML, CSS, and JS.</li>
+        <li>Together: We met several times to discuss site strategy, learn GitHub, and to blend the Meta pages with the Proto-Site to make a common site.
+      </ul>
+    </div> 
+  </div> 
+</section> 
+ 
+<section id="slide7">
+  <div class="content">
+    <div class="info_container">
+      <h3 class="info"> </h3>
+      <img src="" > <h4> </h4>
+    </div> 
+  </div> 
+</section> 
+ 
+ 
+<section id="slide8">
+  <div class="content" >
+    <div class="info_container">
+      <h3 class="info">Original Comp 1950 Site</h3>
+      <p class="info">
+        Before starting we analyzed several other similar sites to get a feel for what other schools were offering.  And as avid users of the BCIT site we both already had a good feel for the weakness that we felt could be improved on.  The overall architecture is a website within a website which is confusing, and navigating around is not very fluidic.  Much of the information, exercises and homework assignments are buried inside the weekly lessons, which is difficult to find when returning later.   As a workaround I found myself emailing myself links to the assignments and notes so that they could be found again.  Also because it is a site within a site back clicking out of pages produces different results.  Also clicking on hyperlinks often fail, unless you right click and open in a new window.   Other then the few weaknesses, the site contains vast amounts of valuable content. 
+      </p>
+    </div>
+  </div> 
+</section> 
+ 
+ 
+<section id="slide9">
+  <div class="content">
+    <div class="info_container">
+      <h3 class="info"> </h3>
+      <img src="" > <h4> </h4>
+    </div> 
+  </div> 
+</section> 
+ 
+ 
+ <section id="slide10">
+   <div class="content" >
+       <div class="info_container">
+      <h3 class="info">New Site Rational</h3>
+      <p class="info">
+        Objective: To address the weaknesses of the original site, while maintaining all its great content.  The main improvements will be with the overall structure and eliminating the site within a site.  Additional improvements will be made to the menu system whereby we have broken out each individual category for Lectures, Homework Assignments, and Quizzes.  Lectures will still contain all the same content, however it will be accessible through the revised menu system.  We felt this approach would make it easier and faster to navigate to what is important.  In addition online quizzes for each Lecture will be provided such that students can rapidly assess their knowledge base.   In addition we will provide course information, resources, exercises and examples to students.  We will also attempt to provide information about the course curriculum, timetable, room information, grading, BCIT policies, and links to the main BCIT course registration site.
+      </p>
+     </div> 
+   </div> 
+ </section> 
+ 
+ <section id="slide11">
+  <div class="content">
+    <div class="info_container">
+      <h3 class="info"> </h3>
+      <img src="" > <h4> </h4>
+    </div> 
+  </div> 
+</section> 
+ 
+ 
+ 
+ <section id="slide12">
+   <div class="content" >
+       <div class="info_container">
+      <h3 class="info">Features 1</h3>
+      <ul class="info">
+        <li>Design method: For this project we will be analyzing other CMS such as KPU, UBC, SFU, and BCIT.  We will be selecting the best attributes of each system to ensure state of the art performance, and that information is organized in an optimal format.   Also as part of or enviro-friendly philosophy, we will include a paperless format, whereby all content information, assignments, and quiz’s will be available online. </li>
+        <li>Measured success: The site will attempt to organize the information in the most logical way possible but will include a feedback que so that students can make suggestions, rate the system, and provide feedback. </li>
+
+
+      </ul>
+     </div> 
+   </div> 
+ </section> 
+ 
+
+ 
+ <section id="slide13">
+  <div class="content">
+    <div class="info_container">
+      <h3 class="info"> </h3>
+      <img src="" > <h4> </h4>
+    </div> 
+  </div> 
+</section> 
+ 
+ 
+ 
+ <section id="slide14">
+   <div class="content" >
+       <div class="info_container">
+      <h3 class="info">Features 2</h3>
+      <ul class="info">
+        <li>Web Development:  Each page of the site will be constructed using the latest standards including HTML5, JavaScript/Jquery and CSS3.  We will provide syntactically correct tags and will be using the latest SEO (Search Engine Optimization) methods. </li>
+        <li>Responsive design:  The site will be designed & coded with response in mind.  The site will look & function well on desktop, tablet, overhead, or mobile device.</li>
+        <li>Maintenance:  : The site will be organized and designed with an emphasis on ease of change so that as the Course Curriculum changes so can the site. </li>
+        <li>Backend Development:  Although this is a proto-site with 4 sample pages,  the finished site will contain a fully functional backend programmed in PHP complete with secure student login and data base security.</li>
+
+      </ul>
+     </div> 
+   </div> 
+ </section>  
+ 
+ 
+ 
+<section id="slide15">
+  <div class="content">
+      <div class="info_container">
+        <h3 class="info"> </h3>
+        <button onclick="window.location.href='../index.html'" class="textright"> Click Here Proto-Site </button>
+        <img src="" > <h4> </h4>
+      </div> 
+    <div id="copyright"><a href="#">Copyright Victoria Chernyaeva & Ken Andreasen  </a></div> 
+    </div> 
+</section> 
+ <!----- SLIDES END --->
+</body>
+</html>

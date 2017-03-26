@@ -1,0 +1,288 @@
+#header {
+  width: 100%;
+  background: url('../img/header-bg.png');
+  height: 80px;
+  position: fixed;
+  margin-top: 30px;
+}
+nav { width: 700px; float: right; margin-top: 10px; }
+
+#logo a {
+  color: #fff;
+  text-decoration: none;
+  float: left;
+  font-size: 30px;
+  margin-top: 20px;
+  color: #fff;
+  font-family:"Wellfleet";
+  font-weight: bold; }
+
+nav ul{
+  list-style: none;
+  display: block;
+  margin: 0 auto;
+  list-style: none;
+}
+nav li{
+  margin-top: 9px;
+  float: left;
+  padding-left: 21px;
+}
+
+nav li a { color: #fff; opacity:0.6; font-size: 16px; text-decoration: none; font-family: 'Wellfleet'; }
+nav li a.active { color: #fff; opacity:1; border-bottom: 2px solid #fff; }
+nav li a:hover { color: #fff; opacity:1; }
+
+
+
+
+.center { margin: 0 auto; }
+.content{ margin: 0 auto; width: 960px; }
+.clear { clear: both; }
+
+
+.info {
+  font-family: 'Goudy Bookletter 1911', serif;
+  font-weight: normal;
+  font-size: 30px;
+  text-align: left;
+  margin: 25px auto;
+
+}
+
+ .author_name_white { font-family:"Wellfleet"; margin: 70px 0 0 75px; color: #fff; font-size: 20px; } 
+ .author_name_gray { font-family:"Wellfleet"; margin: 70px 0 0 75px; color: #94a4a4; font-size: 20px; } 
+ .info_container { width: 1000px; margin: 0 auto; }
+
+ 
+.avitar {
+   padding: 0 15px 0 0;
+   float: left;
+ }
+ 
+ .avitarbox{
+   height: 250px;
+   margin 10px 0;
+ }
+ 
+#bcit { 
+  background: url('../img/bcit_logo.jpg')no-repeat;
+  width: 522px;
+  height: 114px;
+  margin: 0 auto;
+  display: block;
+  position: relative;
+  top: 0px; }
+
+#slide1, #slide2{ width: 100%; }
+
+#slide1{
+  background:url('../img/slide1.jpg') 50% 0 no-repeat fixed;
+  color: #fff;
+  height: 600px;
+  margin: 0;
+  padding: 200px 0 260px 0;
+  background-size: cover;
+}
+
+#slide2{
+  background-color: #fff;
+  color: #333333;
+  height: 240px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 100px 0;
+}
+#slide3{
+  background: url(../img/slide3.jpg) 50% 0 no-repeat fixed;
+  color: #fff;
+  height: 600px;
+  padding: 170px 0 0 0;
+  background-size: cover;
+}
+#slide4{
+  background-color: #fff;
+  color: #333333;
+  height: 550px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 100px 0;
+}
+#slide5{
+  background: url(../img/slide5.jpg) 50% 0 no-repeat fixed;
+  color: #fff;
+  height: 600px;
+  padding: 170px 0 0 0;
+  background-size: cover;
+}
+#slide6{
+  background-color: #fff;
+  color: #333333;
+  height: 250px;
+  padding: 100px 0;
+}
+#slide7{
+  background: url(../img/slide7.jpg) 50% 0 no-repeat fixed;
+  color: #fff;
+  height: 600px;
+  padding: 170px 0 0 0;
+  background-size: cover;
+}
+#slide8{
+  background-color: #fff;
+  color: #333333;
+  height: 480px;
+  padding: 100px 0;
+}
+#slide9{
+  background: url(../img/slide9.jpg) 50% 0 no-repeat fixed;
+  color: #fff;
+  height: 600px;
+  padding: 170px 0 0 0;
+  background-size: cover;
+}
+#slide10{
+  background-color: #fff;
+  color: #333333;
+  height: 520px;
+  padding: 100px 0;
+}
+
+#slide11{
+  background: url(../img/slide11.jpg) 50% 0 no-repeat fixed;
+  color: #fff;
+  height: 600px;
+  padding: 170px 0 0 0;
+  background-size: cover;
+}
+#slide12{
+  background-color: #fff;
+  color: #333333;
+  height: 400px;
+  padding: 100px 0;
+}
+
+#slide13{
+  background: url(../img/slide13.jpg) 50% 0 no-repeat fixed;
+  color: #fff;
+  height: 600px;
+  padding: 170px 0 0 0;
+  background-size: cover;
+}
+#slide14{
+  background-color: #fff;
+  color: #333333;
+  height: 480px;
+  padding: 100px 0;
+}
+
+#slide15{
+  background: url(../img/slide15.jpg) 50% 0 no-repeat fixed;
+  height: 500px;
+  margin: 0 auto;
+  padding: 250px 0;
+  color: #fff;
+  background-size: cover;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+h1 {
+  font-family:"Arvo";
+  font-weight:normal;
+  font-size: 55px;
+  text-align: center;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+h2 {
+  font-family:"Arvo";
+  font-weight: normal;
+  font-size: 40px;
+  text-align: center;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+h3 {
+  font-family: Oswald;
+  font-weight: normal;
+  font-size: 16px;
+  text-align: center;
+  margin: 5px 0;
+  padding: 0;
+  z-index: 1;
+  position: relative;
+}
+
+p{
+  font-family: Oswald;
+  font-weight: normal;
+  font-size: 16px;
+  text-align: center;
+  margin: 5px 0;
+  padding: 0;
+  z-index: 1;
+  position: relative;
+}
+
+.textright{
+	padding: 0.8em 1em;
+	background-color: #999999;
+	color: #0fffff;
+	text-decoration: none;
+	float: left;
+	border-right: none;
+  
+ 	-webkit-animation: colorPulse 2s  infinite;
+	-moz-animation: colorPulse 2s  infinite;
+	-ms-animation: colorPulse 2s  infinite;
+	-o-animation: colorPulse 2s  infinite;
+	animation: colorPulse 2s  infinite; 
+  
+}
+
+
+@-webkit-keyframes colorPulse{
+	
+	0%{	  color:black;  padding: 0.8em 1em 0.8em  1em ;   } /* this animation begins immediately */
+	50%{  color: red;   padding: 0.8em 1em 0.8em  1em ;	} /* at the halfway point, different styles... */
+	100%{ color:black;  padding: 0.8em 1em 0.8em  1em ;	  } /* at the end, styles have returned to initial state */
+}
+@-moz-keyframes colorPulse{
+	0%{		color:black;	padding: 0.8em 1em 0.8em  1em ;   }
+	50%{	color: red;  	padding: 0.8em 1em 0.8em  1em ;	}
+	100%{	color:black;	padding: 0.8em 1em 0.8em  1em ;	  }
+}
+@-ms-keyframes colorPulse{
+	0%{		color:black;	padding: 0.8em 1em 0.8em  1em ;   }
+	50%{	color: red;	  padding: 0.8em 1em 0.8em  1em ;	}
+	100%{	color:black;	padding: 0.8em 1em 0.8em  1em ;	  }
+}
+@-o-keyframes colorPulse{
+	0%{		color:black;	padding: 0.8em 1em 0.8em  1em ;   }
+	50%{	color: red;	  padding: 0.8em 1em 0.8em  1em ;	}
+	100%{	color:black;	padding: 0.8em 1em 0.8em  1em ;	  }
+}
+@keyframes colorPulse{
+	0%{		color:black;  padding: 0.8em 1em 0.8em  1em ;   }
+	50%{	color:red; 		padding: 0.8em 1em 0.8em  1em ;	}
+	100%{	color:black;  padding: 0.8em 1em 0.8em  1em ;	  }
+}
+
+
+button{
+  height: 200px;
+  width: 300px;
+  margin: auto;
+  font-family:"Arvo";
+  font-weight: normal;
+  font-size: 40px;
+  text-align: center;
+}
+#copyright { color: #fff; font-family:"Wellfleet"; font-size: 14px; margin-top: 100px; text-align: center; }
+#copyright a { text-decoration: none; color: #fff; }

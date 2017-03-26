@@ -130,8 +130,10 @@ h1, h2, h3 {
 }
    /*Top image*/
 #banner {
-   height: 600px;
-   background-image: url("/img/pc-1207886_1280.jpg");
+   height: 120px;
+   background-color: gray;
+   background: url("../img/bcit.jpg")no-repeat fixed;
+   background-size: 100%;
 }
 
 
